@@ -1,7 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-use App\http\Controllers\EventoController;
+use App\Http\Controllers\EventoController;
 
 /*
 |--------------------------------------------------------------------------
@@ -16,4 +16,6 @@ use App\http\Controllers\EventoController;
 
 Route::get('/', [EventoController::class, 'index']);
 Route::get('/events/create', [EventoController::class, 'create']);
+Route::get('/events/{id}', [EventoController::class, 'show']);
 Route::get('/contacto', [EventoController::class, 'contacto']);
+Route::post('/events', [EventoController::class, 'store']);

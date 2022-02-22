@@ -22,12 +22,12 @@
 <div id= "cards-container" class="row mb-5 container">
 @foreach($events as $event)
 <div class="card col-md-3 m-5">
-    <img src="/img/5-erros-ao-aplicar-inteligência-artificial-e-robô-de-marketing.jpg" alt="{{$event->title}}">
+    <img src="/img/events/{{$event->image}}" alt="{{$event->title}}">
     <div class="card-body">
     <p class="card-date">12/02/22</p>
 <h5 class="card-title">{{$event->title}}</h5>
 <p class="card-participantes">Xparticipantes</p>
-<a href="#" class="btn btn-primary">Saber mais</a>
+<a href="/events/{{$event->id}}" class="btn btn-primary" id="botao">Saber mais</a>
 </div>
 </div>
 @endforeach

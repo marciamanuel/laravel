@@ -28,7 +28,7 @@ header{
     padding:10px;
 }
 
-element.style{
+#botao{
     background:#F2A340;
     border:2px solid #C28008; 
 }
@@ -39,4 +39,29 @@ footer{
 
     font-size: 14px;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+#info-container,
+#image-container{
+    margin-top: 30px;
+}
+
+#image-container img{
+    border-radius: 10px;
+}
+
+#info-container h1{
+    font-size: 40px;
+    font-weight: 900;
+}
+#info-container p{
+    margin: 0;
+    font-size: 14px;
+
+
+}
+
+#info-container #event-submit{
+    background:#C28008 ;
+    border:2px solid #C28008; 
 }
