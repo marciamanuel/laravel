@@ -3,7 +3,7 @@
 @section('title', $event->title)
 
 @section('content')
-<div class="col-md-10 offset-md-1">
+<div class="col-md-10 offset-md-1 mt-5 mb-5">
     <div class="row">
         <div id="image-container" class="col-md-6">
 <img src="/img/events/{{$event->image}}"  alt="{{$event->title}}">

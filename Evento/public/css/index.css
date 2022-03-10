@@ -24,9 +24,7 @@ header{
     margin:0;
 }
 
-#cards-container{
-    padding:10px;
-}
+
 
 #botao{
     background:#F2A340;
@@ -43,11 +41,13 @@ footer{
 
 #info-container,
 #image-container{
-    margin-top: 30px;
+   
 }
 
 #image-container img{
     border-radius: 10px;
+    width: 100%;
+    height: 300px;
 }
 
 #info-container h1{
@@ -64,4 +64,8 @@ footer{
 #info-container #event-submit{
     background:#C28008 ;
     border:2px solid #C28008; 
+}
+
+#image{
+   
 }
