@@ -19,3 +19,8 @@ Route::get('/events/create', [EventoController::class, 'create']);
 Route::get('/events/{id}', [EventoController::class, 'show']);
 Route::get('/contacto', [EventoController::class, 'contacto']);
 Route::post('/events', [EventoController::class, 'store']);
+Route::resource('produtos',ProdutoController::class);
+
+Auth::routes();
+
+Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
